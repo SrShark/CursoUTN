@@ -9,7 +9,7 @@ public class BancosAlumnos {
 
         int bancos = lector.nextInt();
 
-        System.out.println("ingrese la cantidad de alumnos");
+        System.out.println("ingrese la cantidad de alumnos")
 
         int alumnos = lector.nextInt();
 
