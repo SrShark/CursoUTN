@@ -16,7 +16,7 @@ public class NombreApellido {
         String apellido = teclado.nextLine();
 
         // El metodo String.format me permite dar formato a una cadena de texto.
-        // tambien me permite utilizar cualquier tipo de dato primitivo, %s %d %2f...
+        // Tambien me permite utilizar cualquier tipo de dato primitivo, %s %d %2f...
         String mensaje = String.format("El nombre completo de la persona es %s %s.", nombre, apellido);
 
         System.out.println(mensaje);
