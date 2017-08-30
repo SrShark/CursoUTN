@@ -12,6 +12,7 @@ public class NombreApellido {
 
         System.out.println("Ingrese su apellido:");
 
+        // El metodo nextLine me permite capturar la cadena de texto que ingrese el usuario y asignarla a la variable.
         String apellido = teclado.nextLine();
 
         // El metodo String.format me permite dar formato a una cadena de texto.
