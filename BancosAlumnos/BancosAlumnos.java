@@ -10,7 +10,7 @@ public class BancosAlumnos {
         int bancos = lector.nextInt();
 
         System.out.println("ingrese la cantidad de alumnos");
-s
+
         int alumnos = lector.nextInt();
 
         // Condición
