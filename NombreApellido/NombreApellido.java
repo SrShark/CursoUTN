@@ -8,12 +8,14 @@ public class NombreApellido {
 
         System.out.println("Ingrese su nombre:");
 
-        String nombre = teclado.nextLine();
+        String nombre = teclado.next();
 
         System.out.println("Ingrese su apellido:");
 
-        // El metodo nextLine me permite capturar la cadena de texto que ingrese el usuario y asignarla a la variable.
-        String apellido = teclado.nextLine();
+        // El metodo nextLine me permite capturar la primer linea de cadena de texto que ingrese el usuario y asignarla a la variable.
+        // String apellido = teclado.nextLine();
+        // El metodo next me permite capturar todas las lineas de cadena de texto que ingrese el usuario y asignarla a la variable.
+        String apellido = teclado.next();
 
         // El metodo String.format me permite dar formato a una cadena de texto.
         // Tambien me permite utilizar cualquier tipo de dato primitivo, %s %d %2f...
