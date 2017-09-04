@@ -14,5 +14,14 @@ public class Imc {
 
         System.out.printf("su indice de masa corporal es: %.2f", imc);
 
+        if (imc <= 18.5) {
+            System.out.println("tienes un imc bajo");
+        }
+        else if (imc <= 24.90) {
+            System.out.println("tienes un imc normal");
+        }
+        else {
+            System.out.println("tienes un imc alto");
+        }
     }
 }
