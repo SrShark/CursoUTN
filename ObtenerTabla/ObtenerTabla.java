@@ -13,7 +13,7 @@ public class ObtenerTabla {
 
                 int calculo = numeroIngresado * numerosTabla[i];
 
-                System.out.printf("%d x %d: %d", numeroIngresado, numerosTabla[i], calculo);
+                System.out.println(numeroIngresado + "x" + numerosTabla[i] + ":" + calculo);
             }
         } else {
             System.out.println("Solo puedo darte las tablas de numeros entre 0 y " + numerosTabla.length);
