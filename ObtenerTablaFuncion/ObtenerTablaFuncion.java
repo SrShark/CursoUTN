@@ -8,9 +8,7 @@ public class ObtenerTablaFuncion {
         System.out.println("Ingrese un valor numerico para conocer su tabla de multiplicacion:");
         int numeroIngresado = teclado.nextInt();
 
-
         calcularTablas(numeroIngresado, numerosTabla);
-
     }
 
     // Metodo para calcular las tablas del número ingresado.
