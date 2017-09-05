@@ -15,8 +15,10 @@ public class ObtenerTablaFuncion {
     public static void calcularTablas(int numeroIngresado, int[] numerosTabla) {
         if (numeroIngresado >= 0 & numeroIngresado <= numerosTabla.length) {
             for (int i = 0; i <= numerosTabla.length ; i++) {
+
                 int calculo = numeroIngresado * numerosTabla[i];
-                System.out.println(numeroIngresado + "x" + numerosTabla[i] + ":" + calculo);
+
+                System.out.printf("%d x %d: %d", numeroIngresado, numerosTabla[i], calculo);
             }
         } else {
             System.out.println("Solo puedo darte las tablas de numeros entre 0 y " + numerosTabla.length);
