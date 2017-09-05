@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class ForTabalaMultiplicador {
+public class ObtenerTabla {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
