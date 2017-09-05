@@ -1,4 +1,6 @@
-public static void main(String[] args) {
+public class PasaAlBoliche {
+
+    public static void main(String[] args) {
 
         // boolean b1= true;
         // boolean b2=false;
@@ -23,3 +25,4 @@ public static void main(String[] args) {
         System.out.println(mensaje);
         System.out.println((mayorDeEdad && tieneElDni)?"Pasa al boliche":"No pasa");
     }
+}
