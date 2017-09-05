@@ -11,7 +11,7 @@ public class ObtenerTablaFuncion {
         calcularTablas(numeroIngresado, numerosTabla);
     }
 
-    // Metodo para calcular las tablas del número ingresado.
+    // Metodo para calcular las tablas del número ingresado..
     public static void calcularTablas(int numeroIngresado, int[] numerosTabla) {
         if (numeroIngresado >= 0 & numeroIngresado <= numerosTabla.length) {
             for (int i = 0; i <= numerosTabla.length ; i++) {
