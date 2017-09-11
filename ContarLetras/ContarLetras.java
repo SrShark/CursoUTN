@@ -17,6 +17,9 @@ public class ContarLetras {
                 contador += 1;
             }
         }
-        System.out.println("se encontraron " + contador +  " coincidencias.");
+
+        String coincidencias = String.format("se encontraron %s coincidencias.", contador);
+
+        System.out.println(coincidencias);
     }
 }
