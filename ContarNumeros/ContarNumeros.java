@@ -5,6 +5,7 @@ public class ContarNumeros {
         Scanner teclado = new Scanner(System.in);
 
         boolean condicion = true;
+        String num1 = "", num2 = "", num3 = "", num4 = "", num5 = "";
 
         while (condicion == true) {
             System.out.println("ingrese notas del 1 al 5");
@@ -24,6 +25,9 @@ public class ContarNumeros {
                 break;
             }
         }
-        System.out.println(num1);
+
+        String print = String.format("1: %s\n2: %s\n3: %s\n4: %s\n5: %s\n", num1, num2, num3, num4, num5);
+
+        System.out.println(print);
     }
 }
