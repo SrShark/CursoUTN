@@ -4,7 +4,7 @@ public class Mes {
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
 
-        int [] numeroMeses = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
+        int[] numeroMeses = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12};
 
         String[] meses = {"enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"};
 
