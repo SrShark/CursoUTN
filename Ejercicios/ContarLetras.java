@@ -12,6 +12,7 @@ public class ContarLetras {
 
         int contador = 0;
 
+        // uso de substring
         for (int i = 0; i < palabra.length() ; i++ ) {
             if (letra.equals(palabra.substring(i, i + 1))){
                 contador += 1;
