@@ -12,17 +12,17 @@ public class ContarNumeros {
             int num = teclado.nextInt();
             switch (num) {
                 case 1: num1 += "* ";
-                break;
+                    break;
                 case 2: num2 += "* ";
-                break;
+                    break;
                 case 3: num3 += "* ";
-                break;
+                    break;
                 case 4: num4 += "* ";
-                break;
+                    break;
                 case 5: num5 += "* ";
-                break;
+                    break;
                 default: condicion = false;
-                break;
+                    break;
             }
         }
 
