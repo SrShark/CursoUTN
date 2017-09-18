@@ -7,7 +7,7 @@ public class ContarNumeros {
         boolean condicion = true;
         String num1 = "", num2 = "", num3 = "", num4 = "", num5 = "";
 
-        while (condicion == true) {
+        while (condicion) {
             System.out.println("ingrese notas del 1 al 5");
             int num = teclado.nextInt();
             switch (num) {
