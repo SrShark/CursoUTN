@@ -1,3 +1,5 @@
+// Escribir un programa solicite al usuario 15 valores enteros y los almacene en un vector. Posteriormente, debe calcular el valor máximo, mínimo y la media.
+
 import java.util.Scanner;
 
 public class MaxMinPromedio {
