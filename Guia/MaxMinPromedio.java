@@ -11,7 +11,7 @@ public class MaxMinPromedio {
             max = 0;
         double contador = 0;
 
-        // calculo el maximo y minimo entre los numeros del array
+        // algoritmo para obtener mayor y menor de un array usando un for con continue.
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("ingrese un numero:");
             numeros[i] = teclado.nextInt();

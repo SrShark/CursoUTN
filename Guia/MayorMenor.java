@@ -10,6 +10,7 @@ public class MayorMenor {
         int min = 0,
             max = 0;
 
+        // algoritmo para obtener mayor y menor de un array.
         for (int i = 0; i < numeros.length; i++) {
             System.out.println("ingrese un numero:");
             numeros[i] = teclado.nextInt();
