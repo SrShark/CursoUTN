@@ -1,4 +1,4 @@
-// 14. Escribir un programa que lea un número entero positivo y cuente el número de dígitos distintos de que consta.
+// 14. Escribir un programa que lea un número entero positivo y cuente el número de dígitos de que consta.
 
 import java.util.Scanner;
 
