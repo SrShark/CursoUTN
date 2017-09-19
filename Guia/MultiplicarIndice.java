@@ -1,4 +1,4 @@
-// Escribir un programa que dé valores a un vector de números enteros, cree un vector resultado de multiplicar cada valor leído por el subíndice correspondiente e imprima este último vector.
+// 8. Escribir un programa que dé valores a un vector de números enteros, cree un vector resultado de multiplicar cada valor leído por el subíndice correspondiente e imprima este último vector.
 
 import java.util.Scanner;
 
