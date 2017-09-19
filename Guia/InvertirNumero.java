@@ -10,6 +10,8 @@ public class InvertirNumero {
 
         // convierto un entero a string
         String str = String.valueOf(numero);
+        // otra forma de pasar a string es esta:
+        // String str= Integer.toString(numero);
 
         // corto el string en digitos y los asigno a un arra para poder manipularlos.
         String[] arr = str.split("");
