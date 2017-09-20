@@ -9,7 +9,6 @@ public class ContarDigitosDistintos {
         // variables
         int numero = 32133;
         int suma = 0;
-        int[] arrNumDistintos = new int[5];
         int[] arrNum = new int[5];
 
         // convierto un entero a string
@@ -27,7 +26,6 @@ public class ContarDigitosDistintos {
                 }
                 else {
                     int flag = arrNum[n]
-                    break;
                 }
             }
 
