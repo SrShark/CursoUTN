@@ -1,0 +1,45 @@
+entidades:
+    socios
+    libros
+    prestamos
+    autores
+    editoriales
+    ejemplar
+
+atributos
+    personas socios {
+        codigo de socio,
+        dni,
+        dirección,
+        teléfono,
+        nombre,
+        apellido,
+        genero
+    }
+    libros {
+        id,
+        título,
+        año de creación,
+    }
+    ejempar {
+        año de edición,
+        ISBN,
+        estado,
+        editorial de edición,
+        editoria de publicación.
+    }
+    prestamos {
+        id prestamo,
+        fecha de prestamo,
+        fecha de devolución,
+        fecha de vencimiento para devolver.
+    }
+
+Relaciones
+libros <-> prestamos
+libros <-> ejemplar
+libros <-> prestamos
+
+editorial <-> ejemplar
+
+socio <-> prestamos

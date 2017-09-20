@@ -1,0 +1,38 @@
+clases
+trabajadores
+desempleados
+cursos
+empresa
+profesor
+alumnos
+programa
+
+atributos del empleado
+    dni
+    nombre
+    telefono
+    dir personal
+    fecha de nacimiento (edad)
+
+atributos de la empresa
+    nombre de la empresa
+    tel de la empresa
+    dir de la empresa
+
+atributos del curso
+    codigo de cursos
+    titulo
+    id profesor
+
+profesor
+    dni
+    nombre
+    apellidos
+    dirección
+    telefono
+
+programa
+    id de programación (numero concreto de curso).
+    id de curso
+    fecha de inicio
+    fecha de finalización
