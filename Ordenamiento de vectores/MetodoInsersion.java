@@ -28,6 +28,6 @@ public class MetodoInsersion {
             //System.out.println("\n");
         }
 
-        System.out.println(Arrays.toString(numeros));
+        System.out.println("final: " + Arrays.toString(numeros));
     }
 }
