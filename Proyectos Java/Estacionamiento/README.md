@@ -8,7 +8,7 @@
     * Moto
     * Auto
     * Camioneta
-* Importe por hora de exceso `constante double`
+* Importe por hora de exceso `constante tipo double`
 * Hora de ingreso `tipo int`
 * Hora de egreso `tipo int`
 * Minuto de ingreso `tipo int`
