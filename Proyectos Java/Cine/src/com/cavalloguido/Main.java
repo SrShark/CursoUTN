@@ -6,7 +6,7 @@ public class Main {
 //      TODO: Actor -> Sexo (Relación de Asosiación.)
 //      Instanciamos el objeto sexo para definir el atributo.
         Sexo sexo = new Sexo("mujer");
-        
+
 //      Pasamos el objeto completo como parametro al constructor del objeto Actor.
         Actor actor = new Actor("juan", "perez", false, sexo);
 
