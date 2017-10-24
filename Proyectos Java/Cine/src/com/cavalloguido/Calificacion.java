@@ -1,0 +1,17 @@
+package com.cavalloguido;
+
+public class Calificacion {
+    private String nombre;
+
+    public Calificacion(String nombre) {
+        this.nombre = nombre;
+    }
+
+    public String getNombre() {
+        return nombre;
+    }
+
+    public void setNombre(String nombre) {
+        this.nombre = nombre;
+    }
+}
