@@ -3,6 +3,9 @@ package com.cavalloguido;
 public class Calificacion {
     private String nombre;
 
+    public Calificacion() {
+    }
+
     public Calificacion(String nombre) {
         this.nombre = nombre;
     }

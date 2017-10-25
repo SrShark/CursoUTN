@@ -10,14 +10,21 @@ public class Pelicula {
     private String nombre;
     private String tituloOriginal;
 
-//    Asosiaciones
+//  Asosiaciones
     private Genero genero;
     private Calificacion calificacion;
     private PaisDeOrigen paisDeOrigen;
 
-
-    public Pelicula() {
-
+    public Pelicula(Date anioEstreno, boolean disponible, short duracion, Date fechaIngreso, String nombre, String tituloOriginal, Genero genero, Calificacion calificacion, PaisDeOrigen paisDeOrigen) {
+        this.anioEstreno = anioEstreno;
+        this.disponible = disponible;
+        this.duracion = duracion;
+        this.fechaIngreso = fechaIngreso;
+        this.nombre = nombre;
+        this.tituloOriginal = tituloOriginal;
+        this.genero = genero;
+        this.calificacion = calificacion;
+        this.paisDeOrigen = paisDeOrigen;
     }
 
     public Date getAnioEstreno() {
