@@ -42,12 +42,12 @@ public class Main {
 
         // FECHAS PARA EL OBJETO PELICULA todoPoderoso.
         Calendar fecha1 = new GregorianCalendar(1988, 0, 1);
-        Date AnioEstreno = fecha1.getTime();
+        Date anioEstreno = fecha1.getTime();
 
         Calendar fecha2 = new GregorianCalendar(2014, 5, 20);
         Date fechaIngreso = fecha2.getTime();
 
-        Pelicula todoPoderoso = new Pelicula(AnioEstreno, true, (short)120, fechaIngreso, "Todo Poderoso", "GOD", genero, calificacion, pais);
+        Pelicula todoPoderoso = new Pelicula(anioEstreno, true, (short)120, fechaIngreso, "Todo Poderoso", "GOD", genero, calificacion, pais);
 
         System.out.println(todoPoderoso.getAnioEstreno());
 
