@@ -6,13 +6,15 @@ public class Actor {
     private boolean animado;
     private Sexo sexo; // Relación de Asociación
 
-    public Actor(){
-    }
-
     public Actor(String nombre, String apellido, boolean animado, Sexo sexo) {
         this.nombre = nombre;
         this.apellido = apellido;
         this.animado = animado;
+        this.sexo = sexo;
+    }
+
+    public Actor(String nombre, Sexo sexo) {
+        this.nombre = nombre;
         this.sexo = sexo;
     }
 
