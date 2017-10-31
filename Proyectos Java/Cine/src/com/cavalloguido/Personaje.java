@@ -20,7 +20,7 @@ public class Personaje {
     }
 
     // TODO: terminar el metodo...
-    public List<Personaje> buscarPersonajesSegunRoles(ArrayList<Personaje> listaPersonajeBusqueda, Rol rolReferencia)
+    public List<Personaje> buscarPersonajesSegunRoles(List<Personaje> listaPersonajeBusqueda, Rol rolReferencia)
     {
         System.out.println("Buscando Personajes de ROl: " + rolReferencia.getNombre());
         List<Personaje> listaPersonajeConRol = new ArrayList();
@@ -37,7 +37,8 @@ public class Personaje {
 
     @Override
     public String toString() {
-        System.out.printf("el actor %s protagonizo la pelicula %");
+        String msj = String.format("el actor %s protagonizo la pelicula %s", getActor().getNombre(), getNombreEnPelicula());
+        return msj;
     }
 
     // GET AND SET

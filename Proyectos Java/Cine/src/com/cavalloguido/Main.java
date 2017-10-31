@@ -70,21 +70,18 @@ public class Main {
         Personaje pj2 = new Personaje("wolverine", rol2, actor2);
         Personaje pj3 = new Personaje("wolverine", rol3, actor3);
 
-        //nombre del rol.
-        System.out.println(pj1.getRol().getNombre());
-        // me traigo el objeto completo.
-        System.out.println(pj1.getActor().getSexo());
-        // nombre del sexo.
-        System.out.println(pj1.getActor().getSexo().getNombre());
-
-        System.out.println(pj1.toString());
+//        TODO: Accesos a diferentes instancias de objetos.
+//        System.out.println(pj1.getRol().getNombre());
+//        // me traigo el objeto completo.
+//        System.out.println(pj1.getActor().getSexo());
+//        // nombre del sexo.
+//        System.out.println(pj1.getActor().getSexo().getNombre());
 
         // lista de personajes
         List<Personaje> listaPersonajes = new ArrayList<Personaje>();
         listaPersonajes.add(pj1);
         listaPersonajes.add(pj2);
         listaPersonajes.add(pj3);
-
-
+        pj1.buscarPersonajesSegunRoles(listaPersonajes, pj1.getRol());
     }
 }
