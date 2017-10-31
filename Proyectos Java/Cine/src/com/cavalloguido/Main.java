@@ -80,7 +80,7 @@ public class Main {
         System.out.println(pj1.toString());
 
         // lista de personajes
-        ArrayList<Personaje> listaPersonajes = new ArrayList<Personaje>();
+        List<Personaje> listaPersonajes = new ArrayList<Personaje>();
         listaPersonajes.add(pj1);
         listaPersonajes.add(pj2);
         listaPersonajes.add(pj3);
