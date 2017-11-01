@@ -1,5 +1,8 @@
 package com.cavalloguido;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Actor {
     private String nombre;
     private String apellido;
@@ -16,6 +19,25 @@ public class Actor {
     public Actor(String nombre, Sexo sexo) {
         this.nombre = nombre;
         this.sexo = sexo;
+    }
+
+    public List<Actor> buscarActorPorSexo(List<Actor> listaActores, Sexo sexoBuscar){
+        List<Actor> listaDeActoresFiltradosPorSexo = new ArrayList<Actor>();
+
+        for (Actor actor : listaActores) {
+            if (actor.getSexo().getNombre().equals(sexoBuscar.getNombre())) {
+                listaDeActoresFiltradosPorSexo.add(actor);
+                System.out.println(actor.toString());
+            }
+        }
+
+        return listaDeActoresFiltradosPorSexo;
+    }
+
+    @Override
+    public String toString() {
+        String msj = String.format("el actor %s es de sexo %s", getNombre(), getSexo().getNombre());
+        return msj;
     }
 
 //    GETTERS AND SETTERS

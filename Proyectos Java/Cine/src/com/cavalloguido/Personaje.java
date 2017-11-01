@@ -19,12 +19,11 @@ public class Personaje {
         this.actor = actor;
     }
 
-    // TODO: terminar el metodo...
-    public List<Personaje> buscarPersonajesSegunRoles(List<Personaje> listaPersonajeBusqueda, Rol rolReferencia)
+    public List<Personaje> buscarPersonajesSegunRoles(List<Personaje> listaPersonajes, Rol rolReferencia)
     {
         System.out.println("Buscando Personajes de ROl: " + rolReferencia.getNombre());
         List<Personaje> listaPersonajeConRol = new ArrayList();
-        for (Personaje personaje : listaPersonajeBusqueda)
+        for (Personaje personaje : listaPersonajes)
         {
             if (personaje.getRol().getNombre().equals(rolReferencia.getNombre()))
             {
@@ -35,9 +34,30 @@ public class Personaje {
         return listaPersonajeConRol;
     }
 
+    public List<Personaje> buscarPersonajesPorRol(List<Personaje> listaPersonajes, List<Rol> listaRoles){
+        List<Personaje> listaPersonajesFiltrados = new ArrayList<Personaje>();
+
+        for (Rol roles : listaRoles)
+        {
+            for (Personaje pj : listaPersonajes) {
+//                System.out.println("el rol es: " + roles.getNombre());
+                if (roles.getNombre().equals(pj.getRol().getNombre()))
+                {
+                    listaPersonajesFiltrados.add(pj);
+                    System.out.println(pj.toString());
+                }
+            }
+
+        }
+
+        return listaPersonajesFiltrados;
+    }
+
+
+
     @Override
     public String toString() {
-        String msj = String.format("el actor %s protagonizo la pelicula %s", getActor().getNombre(), getNombreEnPelicula());
+        String msj = String.format("el actor %s tiene el rol %s", getActor().getNombre(), getRol().getNombre());
         return msj;
     }
 
