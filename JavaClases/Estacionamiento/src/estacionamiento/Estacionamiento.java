@@ -1,4 +1,4 @@
-package com.cavalloguido;
+package estacionamiento;
 
 public class Estacionamiento {
 
@@ -48,7 +48,7 @@ public class Estacionamiento {
         return horasEstacionado;
     }
 
-//  TODO: separar las horas normales de las exedentes para que sumen por importes separados!:
+    //  TODO: separar las horas normales de las exedentes para que sumen por importes separados!:
     private int getHorasExedentes() {
         int horasExedentes = 0;
 
