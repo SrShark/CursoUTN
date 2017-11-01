@@ -1,8 +1,13 @@
-/JavaClases/
-/ProyectosJava/
+/ProyectosJava/*
 
-
-*.class
+// Imagenes
 *png
 *jpeg
 *jpg
+
+// Java
+*.class
+
+// Intellij IDEA
+*.iml
+*xml
