@@ -1,4 +1,4 @@
-package com.cavalloguido;
+package salario;
 
 public class Salario {
     private int horasTrabajadas;
@@ -31,16 +31,16 @@ public class Salario {
     }
 
     // TODO: Terminar esta clase
-    private int calcularRetenciones(){
-        int retencionMinima = 20;
-        int retencionMaxima = 24;
-        int monto = 18000;
-
-        //Al sueldo bruto calculado se le aplica una retención del 20% hasta los $18.000 o el 24% en caso de superar ese importe, para obtener el sueldo neto.
-        if (calcularSalarioNeto() <= monto) {
-
-        }
-    }
+//    private int calcularRetenciones(){
+//        int retencionMinima = 20;
+//        int retencionMaxima = 24;
+//        int monto = 18000;
+//
+//        //Al sueldo bruto calculado se le aplica una retención del 20% hasta los $18.000 o el 24% en caso de superar ese importe, para obtener el sueldo neto.
+//        if (calcularSalarioNeto() <= monto) {
+//
+//        }
+//    }
 
     // Geters and Setters
     public int getHorasTrabajadas() {
