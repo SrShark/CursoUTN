@@ -1,14 +1,15 @@
 /ProyectosJava/*
 *html
+.txt
 
 // Imagenes
-*png
-*jpeg
-*jpg
+*.png
+*.jpeg
+*.jpg
 
 // Java
 *.class
 
 // Intellij IDEA
 *.iml
-*xml
+*.xml
