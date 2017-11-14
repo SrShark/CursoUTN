@@ -1,0 +1,17 @@
+diagrama de casos de usos.
+
+se usa para tener una vista de una parte del sistema, de las cosas o actividades que va a hacer.
+Nos permite modelar diferentes escenarios de los que puede pasar nuestro sistema.
+
+contiene:
+Actores (son los mueñequitos) ☺
+	Son los Roles o permisos que tienen cada parte en el sistema.
+	Como usuarios de un OS, cada usuario tiene un alcanze restringido.
+
+
+relaciones externas o internas de metodos con otros de otras clases.
+paquetes.
+
+Trazo Grueso.
+Trazo Medio
+Trazo Fino

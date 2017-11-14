@@ -1,0 +1,14 @@
+Maquina de estado. (CICLO DE VIDA)
+
+es el diagrama de los diferentes estados por llos que pasa una clase.
+A veces quiero saber si tengo una sala (cine)
+
+transisión interna: es cuando se ejecuta un metodo pero no cambia el estado de la clase
+entrada salida:
+nombre:
+
+Transisión.
+caputrar eventos que van a generar el cambio de un estado a otro. Son metodos que se disparan.
+
+Subestados:
+Puede tener varios estados internos, es decir dentro de un estado hacer otra maquina de estado para ese mismo.
